@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #030616;
+  background-color: #f8fafc;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.tittle {
+  background-color: #fff;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  width: 100vw;
+}
+section.tittle h1 {
+  background-color: #fff;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+section.tittle p {
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+.divider {
+  width: 100%;
+  max-width: 1280px;
+  height: 2px;
+  background-color: #d2d5da;
+}
+
+section.content {
+  max-width: 1280px;
+  padding: 1.5rem;
+  height: 100vh;
+}
+section.content div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: 2.5rem 0;
+}
+section.content div ol,
+section.content div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-left: 1.8rem;
+}
+section.content div ol li span,
+section.content div ul li span {
+  color: #030616;
+  font-weight: 600;
+}
+section.content div a {
+  text-decoration: none;
+  color: #4e80ee;
+}
+section.content div h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=index.css.map */

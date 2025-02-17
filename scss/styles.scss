@@ -1,0 +1,29 @@
+@use "./variables/variables";
+@use "./base/base";
+@use "./mixins/mixins";
+
+section.tittle {
+  @include mixins.section-title;
+
+  h1 {
+    @include mixins.heading-1;
+  }
+
+  p {
+    @include mixins.body-text;
+    background-color: #fff;
+  }
+}
+.divider {
+  @include mixins.divider;
+}
+section.content {
+  @include mixins.section-content;
+
+  div {
+    @include mixins.div-default;
+    h2 {
+      @include mixins.heading-2;
+    }
+  }
+}

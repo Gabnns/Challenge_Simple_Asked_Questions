@@ -1,0 +1,68 @@
+@use "../variables/variables";
+
+@mixin section-title {
+  background-color: #fff;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  width: 100vw;
+}
+
+@mixin section-content {
+  max-width: 1280px;
+  padding: 1.5rem;
+  height: 100vh;
+}
+
+@mixin div-default {
+  @include list-default;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  margin: 2.5rem 0;
+
+  a {
+    text-decoration: none;
+    color: variables.$color_link;
+  }
+}
+
+@mixin list-default {
+  ol,
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-left: 1.8rem;
+
+    li {
+      span {
+        color: variables.$color_primary;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@mixin divider {
+  width: 100%;
+  max-width: 1280px;
+  height: 2px;
+  background-color: variables.$color_background__gray;
+}
+
+@mixin heading-1 {
+  background-color: #fff;
+  font-size: variables.$font_size__title;
+  font-weight: 600;
+}
+@mixin heading-2 {
+  font-size: variables.$font_size__subtitle;
+  font-weight: 600;
+}
+@mixin body-text {
+  font-size: variables.$font_size__body;
+  font-weight: 400;
+}

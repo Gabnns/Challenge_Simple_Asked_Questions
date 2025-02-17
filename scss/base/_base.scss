@@ -1,0 +1,16 @@
+@use "../variables/variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: variables.$font_primary;
+  color: variables.$color_primary;
+  background-color: variables.$color_background__white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
