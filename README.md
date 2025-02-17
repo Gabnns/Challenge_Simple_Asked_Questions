@@ -35,14 +35,8 @@ For this project, it is recommended to use only HTML and CSS to create the web p
 
 [x] Ensure the layout is clean and visually appealing with appropriate spacing and typography.
 
-[x] Use semantic HTML elements to structure the content and improve SEO.
-
 [x] Apply CSS styles to enhance the visual presentation of the page.
 
 [x] Test the web page on different devices and screen sizes to ensure responsiveness.
 
-[x] Validate the HTML and CSS code to ensure it follows best practices and standards.
-
-[x] Document the code and provide clear instructions on how to run and use the web page.
-
-[x] Deploy the website to make it accessible for everyone.
+[x] Deploy the website to make it accessible for everyone: https://gabnns.github.io/Challenge_Simple_Asked_Questions/
